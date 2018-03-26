@@ -7,7 +7,8 @@
       <field name="model">prueba.prueba</field>
       <field name="arch" type="xml">
         <tree>
-          <field name="namea"/>
+          <field name="name"/>
+            <field name="name2"/>
           <field name="value"/>
           <field name="value2"/>
         </tree>
