@@ -23,7 +23,7 @@
       <field name="view_mode">tree,form</field>
     </record>
 
-      <record model="ir.actions.act_window" id="prueba2.action_window">
+      <record model="ir.actions.act_window" id="prueba.action_window2">
       <field name="name">prueba window2</field>
       <field name="res_model">prueba.prueba</field>
       <field name="view_mode">tree,form</field>
@@ -61,7 +61,7 @@
               action="prueba.action_window"/>
 
     <menuitem name="List2" id="prueba.menu_2_list" parent="prueba.menu_2"
-              action="prueba2.action_window"/>
+              action="prueba.action_window2"/>
     <!-- <menuitem name="Server to list" id="prueba" parent="prueba.menu_2"
               action="prueba.action_server"/> -->
 
