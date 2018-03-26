@@ -7,9 +7,9 @@
       <field name="model">prueba.prueba</field>
       <field name="arch" type="xml">
         <tree>
-          <field name="namea"/>
-          <field name="valueb"/>
-          <field name="value2c"/>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
         </tree>
       </field>
     </record>
@@ -23,7 +23,7 @@
       <field name="view_mode">tree,form</field>
     </record>
 
-      <record model="ir.actions.act_window" id="prueba.action_window2">
+      <record model="ir.actions.act_window" id="prueba2.action_window">
       <field name="name">prueba window2</field>
       <field name="res_model">prueba.prueba</field>
       <field name="view_mode">tree,form</field>
@@ -60,8 +60,8 @@
     <menuitem name="List" id="prueba.menu_1_list" parent="prueba.menu_1"
               action="prueba.action_window"/>
 
-    <menuitem name="List2" id="prueba.menu_1_list" parent="prueba.menu_2"
-              action="prueba.action_window"/>
+    <menuitem name="List2" id="prueba.menu_2_list" parent="prueba.menu_2"
+              action="prueba2.action_window"/>
     <!-- <menuitem name="Server to list" id="prueba" parent="prueba.menu_2"
               action="prueba.action_server"/> -->
 
