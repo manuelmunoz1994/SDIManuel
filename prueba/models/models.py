@@ -5,7 +5,6 @@ from odoo import models, fields, api
 class prueba(models.Model):
     _name = 'prueba.prueba'
     name = fields.Char()
-    name2 = fields.Char()
     value = fields.Integer()
     value2 = fields.Float(compute="_value_pc", store=True)
     description = fields.Text()
