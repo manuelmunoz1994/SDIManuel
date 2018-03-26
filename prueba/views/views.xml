@@ -7,9 +7,9 @@
       <field name="model">prueba.prueba</field>
       <field name="arch" type="xml">
         <tree>
-          <field name="namea"/>
-          <field name="valueb"/>
-          <field name="value2c"/>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
         </tree>
       </field>
     </record>
