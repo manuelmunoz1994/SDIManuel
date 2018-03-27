@@ -1,7 +1,7 @@
 <odoo>
   <data>
     <!-- explicit list view definition -->
-<!--
+
     <record model="ir.ui.view" id="prueba.list">
       <field name="name">prueba list</field>
       <field name="model">prueba.prueba</field>
@@ -14,7 +14,7 @@
         </tree>
       </field>
     </record>
- -->
+
 
     <!-- actions opening views on models -->
 
