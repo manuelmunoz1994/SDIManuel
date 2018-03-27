@@ -1,7 +1,7 @@
 <odoo>
   <data>
     <!-- explicit list view definition -->
-
+<!--
     <record model="ir.ui.view" id="prueba.list">
       <field name="name">prueba list</field>
       <field name="model">prueba.prueba</field>
@@ -14,7 +14,7 @@
         </tree>
       </field>
     </record>
-
+ -->
 
     <!-- actions opening views on models -->
 
@@ -63,9 +63,9 @@
 
     <menuitem name="List2" id="prueba.menu_2_list" parent="prueba.menu_2"
               action="prueba.action_window2"/>
-              -->
+
     <!-- <menuitem name="Server to list" id="prueba" parent="prueba.menu_2"
-              action="prueba.action_server"/>
+              action="prueba.action_server"/> -->
 
   </data>
 </odoo>
